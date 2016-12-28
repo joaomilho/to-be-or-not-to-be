@@ -11,7 +11,8 @@ npm i -s to-be-or-not-to-be
 ## Usage
 
 ```js
-var toBeOrNotToBe = require('to-be-or-not-to-be')
+var toBeOrNotToBe = require('to-be-or-not-to-be'),
+    raining = require('./path/to/raining')
 
 describe("your description", function() {
   beforeEach(function() {
@@ -19,8 +20,8 @@ describe("your description", function() {
   })
 
   it("is raining or it is not raining", function() {
-    expect("raining").toBeOrNotToBe(true)
-    expect("raining").toBeOrNotToBe(false)
+    expect(raining()).toBeOrNotToBe(true)
+    expect(raining()).toBeOrNotToBe(false)
   })
 })
 ```
