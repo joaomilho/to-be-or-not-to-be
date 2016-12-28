@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Matchers are good. They make your code look like English. And Hamlet is the ultimate expression of the English language.",
   "main": "index.js",
+  "repository": "https://github.com/joaomilho/to-be-or-not-to-be",
   "scripts": {
     "test": "node test.js"
   },
