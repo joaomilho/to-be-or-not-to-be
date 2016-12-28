@@ -1,0 +1,17 @@
+{
+  "name": "to-be-or-not-to-be",
+  "version": "1.0.0",
+  "description": "Matchers are good. They make your code look like English. And Hamlet is the ultimate expression of the English language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Juan Lulkin <maiz@lulk.in> (https://medium.com/@joaomilho/)",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^2.5.2"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
