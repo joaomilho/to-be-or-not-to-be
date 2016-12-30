@@ -1,8 +1,8 @@
 var customMatchers = {
   toBeOrNotToBe: function() {
     return {
-      compare: function(){
-        return {pass: (true || !true)};
+      compare: function(value){
+        return {pass: (!!value || !value)};
       }
     }
   }
